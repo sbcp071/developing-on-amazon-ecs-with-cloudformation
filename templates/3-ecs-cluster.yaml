@@ -36,3 +36,7 @@ Outputs:
     Value: !Ref ecscluster
     Export:
       Name: !Sub "${AWS::StackName}-ecscluster"
+
+
+
+ 

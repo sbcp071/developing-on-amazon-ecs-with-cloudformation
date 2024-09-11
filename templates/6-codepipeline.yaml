@@ -6,15 +6,15 @@ Parameters:
   GitHubConnectionId:
     Type: String
     Description: The ARN of the connection to GitHub
-    Default: <GITHUB_CONNECTION_ID>
+    Default: arn:aws:codeconnections:us-west-2:632176770492:connection/e5e2a4fb-41d3-4726-8660-2d27a1993ccd
   GitHubRepoOwner:
     Type: String
     Description: The owner of the GitHub repository
-    Default: <GITHUB_OWNER>
+    Default: sbcp071
   GitHubRepoName:
     Type: String
     Description: The name of the GitHub repository to use
-    Default: <GITHUB_REPO_NAME>
+    Default: book-app-amazon-ecs
   GitHubArtifactOutput:
     Type: String
     Description: The name of the CodeBuild artifact output
