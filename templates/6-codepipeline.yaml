@@ -6,7 +6,7 @@ Parameters:
   GitHubConnectionId:
     Type: String
     Description: The ARN of the connection to GitHub
-    Default: e5e2a4fb-41d3-4726-8660-2d27a1993ccd
+    Default: arn:aws:codeconnections:us-west-2:632176770492:connection/e5e2a4fb-41d3-4726-8660-2d27a1993ccd
   GitHubRepoOwner:
     Type: String
     Description: The owner of the GitHub repository
